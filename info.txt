@@ -1,0 +1,17 @@
+CashTrack
+Main Pages:
+-	Landing Page
+-	Register Page
+-	Login Page
+
+
+
+Monetizing ways:
+-	Subscription based 
+
+Main Colors:
+Purple - #A633CC        
+Green - #59CC33
+
+ 
+
