@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html lang="bg">
 <head>
     <meta charset="UTF-8">
-    <title>Вход - FinPlanner</title>
+    <title>Вход - Veltera</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <!-- Същите стилове като в register.php -->
     <style>

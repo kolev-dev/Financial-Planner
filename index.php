@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Финансов Планер - Начало</title>
+    <title>Veltera</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -151,7 +151,7 @@
 
     <header>
         <div class="logo">
-            <div class="logo-icon">F</div> FinPlanner
+            <div class="logo-icon">F</div> Veltera
         </div>
         <nav>
             <a href="#features">Функционалности</a>
@@ -176,7 +176,7 @@
                 <div class="bullet"><i class="fas fa-check-circle"></i> Умно бюджетиране</div>
                 <div class="bullet"><i class="fas fa-check-circle"></i> Анализ на активи</div>
                 <div class="bullet"><i class="fas fa-check-circle"></i> Цели и спестявания</div>
-                <div class="bullet"><i class="fas fa-check-circle"></i> Dark Mode интерфейс</div>
+                <div class="bullet"><i class="fas fa-check-circle"></i> Финансови калкулатори</div>
             </div>
 
             <a href="register.php" class="btn-primary" style="padding: 16px 40px; font-size: 18px;">Стартирай безплатно →</a>
