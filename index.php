@@ -79,10 +79,10 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 50px;
-            padding: 50px 5%;
+            padding: 80px 5%;
             align-items: center;
         }
-        .hero h1 { font-size: 52px; font-weight: 800; line-height: 1.1; margin-bottom: 50px; }
+        .hero h1 { font-size: 52px; font-weight: 800; line-height: 1.1; margin-bottom: 20px; }
         .hero h1 span { color: var(--primary); }
         .hero p { font-size: 18px; color: var(--text-muted); line-height: 1.6; margin-bottom: 35px; }
         
@@ -95,8 +95,8 @@
             background: var(--bg-card); 
             border-radius: 24px; 
             box-shadow: 0 20px 40px rgba(0,0,0,0.1); 
-            border: 2px solid var(--border); 
-            padding: 60px;
+            border: 1px solid var(--border); 
+            padding: 30px;
             display: flex; 
             flex-direction: column;
             color: var(--text-main);
@@ -228,11 +228,11 @@
                 <h3>Инвестиции</h3>
                 <p>Анализирайте портфолиото си и планирайте дългосрочни стратегии.</p>
             </div>
-            <!-- <div class="feature-card">
+            <div class="feature-card">
                 <div class="icon"><i class="fas fa-chart-pie"></i></div>
                 <h3>Анализи</h3>
                 <p>Получавай детайлни отчети за своите приходи и разходи всеки месец.</p>
-            </div> -->
+            </div>
         </div>
     </section>
 
@@ -258,6 +258,7 @@
                 <ul style="text-align: left; list-style: none; padding: 0; line-height: 2;">
                     <li><i class="fas fa-check"></i> Всичко от Basic</li>
                     <li><i class="fas fa-check"></i> Неограничени инвестиции</li>
+                    <li><i class="fas fa-check"></i> Експорт към Excel/PDF</li>
                     <li><i class="fas fa-check"></i> Поддръжка 24/7</li>
                 </ul>
                 <a href="register.php" class="btn-full btn-pro">Вземи Pro план</a>
