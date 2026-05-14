@@ -228,11 +228,11 @@
                 <h3>Инвестиции</h3>
                 <p>Анализирайте портфолиото си и планирайте дългосрочни стратегии.</p>
             </div>
-            <div class="feature-card">
+            <!-- <div class="feature-card">
                 <div class="icon"><i class="fas fa-chart-pie"></i></div>
                 <h3>Анализи</h3>
                 <p>Получавай детайлни отчети за своите приходи и разходи всеки месец.</p>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -258,7 +258,6 @@
                 <ul style="text-align: left; list-style: none; padding: 0; line-height: 2;">
                     <li><i class="fas fa-check"></i> Всичко от Basic</li>
                     <li><i class="fas fa-check"></i> Неограничени инвестиции</li>
-                    <li><i class="fas fa-check"></i> Експорт към Excel/PDF</li>
                     <li><i class="fas fa-check"></i> Поддръжка 24/7</li>
                 </ul>
                 <a href="register.php" class="btn-full btn-pro">Вземи Pro план</a>
