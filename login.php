@@ -11,6 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->execute([$login_input, $login_input]);
     $user = $stmt->fetch();
 
+
     if ($user && password_verify($password, $user['password'])) {
         $_SESSION['user_id'] = $user['id'];
         $_SESSION['username'] = $user['username'];
@@ -26,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html lang="bg">
 <head>
     <meta charset="UTF-8">
-    <title>Вход - Veltera</title>
+    <title>Вход - Veltra.</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <!-- Същите стилове като в register.php -->
     <style>
