@@ -82,6 +82,8 @@
             padding: 80px 5%;
             align-items: center;
         }
+        
+
         .hero h1 { font-size: 52px; font-weight: 800; line-height: 1.1; margin-bottom: 20px; }
         .hero h1 span { color: var(--primary); }
         .hero p { font-size: 18px; color: var(--text-muted); line-height: 1.6; margin-bottom: 35px; }
@@ -90,19 +92,25 @@
         .bullet { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--text-muted); font-weight: 500;}
         .bullet i { color: var(--primary); }
 
+        /* .hero-content {margin-top:-60px;} */
+
+
         /* --- Calculator Widget Inside Hero --- */
         .hero-image-placeholder { 
             background: var(--bg-card); 
             border-radius: 24px; 
             box-shadow: 0 20px 40px rgba(0,0,0,0.1); 
             border: 1px solid var(--border); 
-            padding: 30px;
+            padding: 50px;
+            margin-top:70px;
             display: flex; 
             flex-direction: column;
             color: var(--text-main);
             position: relative;
             overflow: hidden;
         }
+
+
 
         .calc-title { margin-top: 0; font-size: 18px; margin-bottom: 20px; color: var(--accent); font-weight: 700; text-align: center; }
         
