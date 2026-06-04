@@ -61,7 +61,7 @@ docker compose down
 
 
 ## Роли и задачи:
-* 22223 - Lead Engieer (DevOps, docker compose engineer)- Написва compose.yml, Дефинира двете услуги financial-planner-web и mysql, конфигурира MySQL контейнера, настройва docker networks и споделените volume-ми, за да няма загуба на данни, прави Docker Hub, логва се през терминала и tag-ва и качва готовия образ на приложението
+* 22223 - Lead Engieer (DevOps, docker compose engineer)- Написва compose.yml, дефинира двете услуги financial-planner-web и mysql, конфигурира MySQL контейнера,  прави Docker Hub, логва се през терминала и tag-ва и push-ва готовия образ на приложението
 * 22221 - Developer - Уверява се, че проекта работи локало, промени по includes/db.php, за динамично свързване с MySQL контейнера, написването на оптимизиран dockerfile за PHP приложението
 * 22207 - QA & Release Engineer - Локален тестинг на приложението  за изправност на чужда машина, разписва документацията на проекта и се занимава с git
 
